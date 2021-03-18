@@ -1,20 +1,23 @@
 {
   "name": "kroky-api",
-  "version": "1.0.0",
-  "description": "",
+  "version": "2.0.1",
+  "description": "API for food ordering website kroky.si",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "repository": "https://github.com/gapidobri/kroky-api",
+  "keywords": [
+    "food",
+    "kroky",
+    "order"
+  ],
+  "author": "gapidobri",
   "license": "ISC",
   "dependencies": {
     "2d-array-rotation": "^2.1.1",
     "axios": "^0.21.1",
-    "cookie": "^0.4.1",
     "dotenv": "^8.2.0",
-    "jquery": "^3.6.0",
     "jsdom": "^16.5.1",
     "querystring": "^0.2.1"
   }
