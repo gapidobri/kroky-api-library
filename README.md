@@ -12,18 +12,19 @@ await kroky.login(username, password)
 
 #### Get meals
 **week (Number):**
--1 - *Previous week*
-0 - *Current week*
-1 - *Next week*
-...
+
+- `-1` - *Previous week*
+- `0` - *Current week*
+- `1` - *Next week*
+- ...
 ```js
 await kroky.getMeals(week)
 ```
 
 #### Select meal
-**date (Date)**: `2020-03-18`
-**id (Number)**: `23679` - category id
-**xl (Boolean)** - large meal
+- **date (Date)**: `2020-03-18`
+- **id (Number)**: `23679` - category id
+- **xl (Boolean)**: `true` - large meal
 ```js
 await kroky.selectMeal(date, id, xl)
 ```
