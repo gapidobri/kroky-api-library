@@ -31,11 +31,8 @@ await kroky.selectMeal(date, id, xl)
 
 #### Sample json response
 ```json
-// Day array
 [
-    // Meal array
     [
-        // Meal
         {
             "id": 23679,
             "name": "This is a custom meal name",
