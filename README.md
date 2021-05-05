@@ -14,9 +14,11 @@ await kroky.login(username, password)
 **week (Number):**
 
 - `-1` - *Previous week*
-- `0` - *Current week*
+- `0` - *Current week* (Mon - Sun)
 - `1` - *Next week*
 - ...
+
+*Yeah, I know, it's stupid.* Better version comming soon
 ```js
 await kroky.getMeals(week)
 ```
