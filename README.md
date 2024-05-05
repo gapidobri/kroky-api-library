@@ -18,7 +18,7 @@ await kroky.login(username, password)
 - `1` - *Next week*
 - ...
 
-*Yeah, I know, it's stupid.* Better version comming soon
+*Yeah, I know, it's stupid.* Better version comming soon™
 ```js
 await kroky.getMeals(week)
 ```
